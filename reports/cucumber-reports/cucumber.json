@@ -1,0 +1,66 @@
+[
+	{
+		"line": 1,
+		"elements": [
+			{
+				"start_timestamp": "2024-04-05T11:41:25.876Z",
+				"line": 6,
+				"name": "Perform a search on Google",
+				"description": "",
+				"id": "search-functionality;perform-a-search-on-google",
+				"type": "scenario",
+				"keyword": "Scenario",
+				"steps": [
+					{
+						"result": {
+							"duration": 25508861800,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "I am on the Google search page",
+						"match": {
+							"location": "com.ncs.Cucumber.searchstepdef.iAmOnTheGoogleSearchPage()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 3666844800,
+							"status": "passed"
+						},
+						"line": 8,
+						"name": "I search for \"TestNG\"",
+						"match": {
+							"arguments": [
+								{
+									"val": "\"TestNG\"",
+									"offset": 13
+								}
+							],
+							"location": "com.ncs.Cucumber.searchstepdef.iSearchFor(java.lang.String)"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 3896435100,
+							"status": "passed"
+						},
+						"line": 9,
+						"name": "I should see search results",
+						"match": {
+							"location": "com.ncs.Cucumber.searchstepdef.iShouldSeeSearchResults()"
+						},
+						"keyword": "Then "
+					}
+				]
+			}
+		],
+		"name": "Search functionality",
+		"description": "  As a user\n  I want to perform a search on Google\n  So that I can find relevant information",
+		"id": "search-functionality",
+		"keyword": "Feature",
+		"uri": "file:src/test/java/com/ncs/Cucumber/search.feature",
+		"tags": []
+	}
+]
